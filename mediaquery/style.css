@@ -1,0 +1,683 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+/*here, start navbar css */
+#menu-icon {
+    padding-left: 50px;
+    display: none;
+}
+
+#menu-icon a i {
+    font-size: 30px;
+
+}
+
+#navbar {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    height: 110px;
+    /* background-color: navy; */
+    align-items: center;
+    z-index: 100;
+    width: 100%;
+}
+
+a {
+    color: white;
+}
+
+#nb-lp {
+    display: flex;
+    align-items: center;
+    /* background-color: #ccc; */
+}
+
+#com-name {
+    font-size: 28px;
+    font-weight: 300;
+    color: white;
+    display: flex;
+    height: 80px;
+    width: 110px;
+    flex-wrap: wrap;
+    padding-left: 60px;
+    padding-right: 50px;
+    /* background-color: green; */
+    line-height: 30px;
+}
+
+#nav-heads ul {
+    display: flex;
+    /* background-color: pink; */
+
+}
+
+#nav-heads li a {
+    padding: 15px;
+    position: relative;
+}
+
+#nav-heads li a::after {
+    content: url(https://www.publicissapient.com/etc/designs/ps-rebrand/clientlib-site/img/ps-2024-aperture-inverted.svg);
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    left: 50%;
+    /* bottom: 7px; */
+    top: 70%;
+    display: none;
+}
+
+#nav-heads li a:hover::after {
+    display: block;
+}
+
+#nav-logos ul li {
+    padding: 10px;
+}
+
+#nav-logo-rs ul li {
+    padding: 10px;
+}
+
+#nav-logos {
+    justify-self: right;
+}
+
+#nav-logo-rs {
+    justify-self: right;
+    display: none;
+}
+
+#nav-logo-rs i {
+    color: white;
+}
+
+#nav-logo-rs a {
+    color: white;
+}
+
+#nav-logos ul {
+    display: flex;
+    padding-right: 60px;
+    gap: 10px;
+    /* background-color: red; */
+
+}
+
+#nav-logo-rs ul {
+    display: flex;
+    padding-right: 10px;
+    /* background-color: red; */
+
+}
+
+#nav-logos ul i {
+    font-size: 16px;
+
+}
+
+#nav-logo-rs ul i {
+    font-size: 16px;
+
+}
+
+/* here, start first part section */
+
+#first-part {
+    height: 430px;
+    /* background-color: blueviolet; */
+}
+
+#ch-img {
+    position: relative;
+    background-image: url(https://s7d9.scene7.com/is/image/publicissapient/Hero-company-history-image?wid=3072&bfc=on&dpr=off);
+    height: 430px;
+    border-bottom-left-radius: 80px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+#ch-content {
+    position: absolute;
+    color: white;
+    bottom: 110px;
+    left: 50px;
+    padding: 10px;
+}
+
+#ch-content h1 {
+    font-size: 45px;
+    font-weight: 400;
+}
+
+
+
+
+/* here, start second part section */
+
+#second-part h1 {
+    font-size: 35px;
+    font-weight: 400;
+    padding: 100px;
+
+}
+
+#second-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#second-part h1 {
+
+    text-align: center;
+
+}
+
+.card1 {
+    display: flex;
+    width: 65%;
+    flex-wrap: wrap;
+
+}
+
+.card1 h3 a {
+    color: black;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.left-part {
+    background-color: #f4f4f4;
+    width: 50%;
+    height: 500px;
+    box-sizing: border-box;
+    padding: 60px;
+}
+
+.left-part h3 {
+    font-size: 20px;
+}
+
+.left-part h2 {
+    padding-top: 30px;
+
+}
+
+.left-part p {
+    padding-top: 40px;
+    line-height: 1.6;
+}
+.left-part h2 a{
+    color: black;
+    text-decoration: underline;
+}
+.right-part{
+    background-color: rgb(204, 0, 0);
+}
+.one {
+
+    height: 500px;
+    width: 50%;
+    background-image: url(https://www.publicissapient.com/content/dam/ps-reinvent/us/en/2024/12/about/history/images/1990-image.jpg.transform/psimg-800/image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.two {
+
+    height: 500px;
+    width: 50%;
+    background-image: url(https://www.publicissapient.com/content/dam/ps-reinvent/us/en/2024/12/about/history/images/2006-image.jpg.transform/psimg-800/image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.three {
+
+    height: 500px;
+    width: 50%;
+    background-image: url(https://www.publicissapient.com/content/dam/ps-reinvent/us/en/2024/12/about/history/images/2008-image.jpg.transform/psimg-800/image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.four {
+
+    height: 500px;
+    width: 50%;
+    background-image: url(https://www.publicissapient.com/content/dam/ps-reinvent/us/en/2024/12/about/history/images/2024-image.jpg.transform/psimg-800/image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+/* here, start third part section */
+
+#third-part {
+    display: flex;
+    justify-content: start;
+    padding: 50px 20px;
+    gap: 10px;
+
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+}
+
+#tp-left-part h1 {
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+#form-head {
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 7px;
+    padding-bottom: 20px;
+}
+
+#tp-left-part {
+    background-color: #eeee;
+    height: auto;
+    width: 65%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#form-upper-part form {
+    /* background-color: blanchedalmond; */
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.input-box {
+    border: none;
+    padding: 0px 10px;
+    margin-bottom: 30px;
+    height: 40px;
+    gap: 20px;
+    font-size: 14px;
+    border-radius: 40px;
+    width: 47%;
+
+}
+
+#country {
+    width: 50%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-sizing: border-box;
+}
+
+#message {
+    border: none;
+    padding: 0px 10px;
+    margin-bottom: 30px;
+    height: 80px;
+    gap: 20px;
+    border-radius: 20px;
+    width: 100%;
+    font-size: 14px;
+}
+
+#form-lower-part {
+    position: relative;
+}
+
+#submit-btn {
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 3px solid black;
+}
+
+#form-lower-part p {
+    padding-top: 10px;
+}
+
+#checked {
+    height: 20px;
+    width: 25px;
+}
+
+#checked-text {
+    display: flex;
+    /* background-color: blueviolet; */
+    height: 70;
+    width: 90%;
+    color: #666666;
+}
+
+#checked-box span {
+    text-align: left;
+    padding: 10px;
+    width: 550px;
+}
+
+#checked-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    /* background-color: blueviolet; */
+}
+#rp-img {
+    background-image: url(https://s7d9.scene7.com/is/image/publicissapient/Bodhi-Footer-Ad-Desktop?wid=640&bfc=on&dpr=off);
+    height: 600px;
+    width: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    border-radius: 10px;
+    position: relative;
+}
+
+#rp-content {
+    position: absolute;
+    color: white;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+#rp-content h2 {
+    background: rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+    width: 80px;
+    padding: 4px 10px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+#rp-content h1 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#rp-content h3 {
+    padding: 0px 0px;
+    position: relative;
+    top: 20px;
+}
+
+#rp-content h3::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    transition: 0.5s;
+}
+
+#rp-content h3:hover::after {
+    width: 51%;
+}
+
+
+
+
+/* here start, forth part css */
+
+
+
+#forth_part {
+    padding: 0px;
+}
+
+#fp-up {
+    background-color: black;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#fp-up ul {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+
+#fp-mp {
+    display: flex;
+    padding-top: 20px;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: #333333;
+}
+
+.com-priv-poli {
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 200px;
+    /* background-color: blue; */
+}
+
+.com-priv-poli li {
+    width: 150px;
+    /* background-color: #ff004f; */
+}
+
+.com-priv-poli li a {
+    position: relative;
+    font-size: 14px;
+}
+
+.com-priv-poli li a::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    transition: 0.5s;
+}
+
+.com-priv-poli li a:hover::after {
+    width: 100%;
+}
+
+#forth-part {
+    padding: 0px 50px;
+    padding-top: 50px;
+}
+
+#fp-lp {
+    background-color: #333333;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 40px;
+    width: 100%;
+}
+
+#fp-lp p {
+    display: flex;
+    justify-content: center;
+}
+
+#fp-lp p a {
+    position: relative;
+    font-size: 14px;
+}
+
+#fp-lp p a::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    transition: 0.5s;
+}
+
+#fp-lp p a:hover::after {
+    width: 100%;
+}
+
+
+/* here, start footer css */
+
+
+#rs-footer a {
+    color: black;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+#ls-footer {
+    font-size: 14px;
+}
+
+#rs-footer ul {
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+}
+
+
+
+/* here, start floating button css */
+
+
+
+.floating-buttons {
+    position: fixed;
+    top: 30%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    z-index: 1000;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+
+}
+
+.chat-btn,
+.save-btn {
+    background: #8b0101;
+    color: white;
+    border: none;
+    padding: 12px 12px;
+    border-radius: 20px 0 0 20px;
+    cursor: pointer;
+    font-size: 14px;
+    writing-mode: vertical-rl;
+    transform: rotate(360deg);
+}
+
+.save-btn {
+    background: #f4f4f4;
+    color: black;
+}
+
+#chat-form {
+    background-color: #8b0101;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 10%;
+    right: -400px;
+    z-index: 2000;
+
+}
+
+#chat-form ul li {
+    background-color: white;
+    width: 350px;
+    border-radius: 30px;
+    height: 40px;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+#chat-form h1 {
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    padding-left: 20px;
+}
+
+#chat-form ul li a {
+    color: black;
+
+}
+
+#chat-form h2 {
+    color: white;
+    font-size: 12px;
+}
+
+#mess-box {
+    height: 50px;
+    width: 320px;
+    padding: 0px 20px;
+    border-radius: 30px;
+    border: none;
+}
+
+#chat-form h3 {
+    color: white;
+}
+
+#cross-icon {
+    display: flex;
+    justify-self: right;
+    color: white;
+    margin-right: -330px;
+    cursor: pointer;
+}
