@@ -390,7 +390,7 @@ a {
     /* background-color: blueviolet; */
 }
 #rp-img {
-    background-image: url(https://s7d9.scene7.com/is/image/publicissapient/Bodhi-Footer-Ad-Desktop?wid=640&bfc=on&dpr=off);
+    background-image: url(https://s7d9.scene7.com/is/image/publicissapient/Slingshot-Footer-Ad-Bank-Desktop-Large-New?wid=700&bfc=on&dpr=off);
     height: 600px;
     width: 450px;
     background-size: cover;
@@ -398,6 +398,10 @@ a {
     background-position: top;
     border-radius: 10px;
     position: relative;
+}
+.bi-stars{
+    color: rgb(135, 1, 1);
+    font-size: 20px;
 }
 
 #rp-content {
