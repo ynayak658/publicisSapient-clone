@@ -60,6 +60,10 @@ a {
 
 }
 
+#nav-heads>ul>li>a>.bi-stars {
+    color: white;
+}
+
 #nav-heads li a {
     padding: 15px;
     position: relative;
