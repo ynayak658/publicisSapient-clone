@@ -11,7 +11,7 @@
     }
     #chat-form{
         background-color: #8b0101;
-        width: 320px;
+        width: 350px;
         height: 600px;
         border-radius: 20px;
         display: flex;
@@ -252,3 +252,4 @@
     }
 
 }
+
